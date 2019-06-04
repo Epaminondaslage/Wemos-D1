@@ -1,4 +1,4 @@
-# Wemos D1
+# Wemos D1 R2
 
 ![Wemos_D1_R2](./Figuras/wemosd1_r2.png)
 
