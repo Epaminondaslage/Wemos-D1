@@ -31,14 +31,13 @@ Fonte: http://blogmasterwalkershop.com.br/embarcados/wemos/conhecendo-a-wemos-d1
 
 ![Wemos_D1_R2](./Figuras/wemos_d1_r2.png)
 
-![Pinos do Wemos D1 R2](./Figuras/pinos.png)
+![Comparação entre Arduino e Wemos](./Figuras/comp_d1_arduino.jpg)
+
 
 ## Drives
 * https://wiki.wemos.cc/downloads 
 * https://wiki.wemos.cc/start 
 * Tech 3 
-
-![Comparação entre Arduino e Wemos](./Figuras/comp_d1_arduino.jpg)
 
 ## Setup
 Para Instalar o Wemos D1 no Windows seguir o tutorial:
