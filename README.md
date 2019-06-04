@@ -1,6 +1,6 @@
 # Wemos D1 R2
 
-![Wemos_D1_R2](./Figuras/wemosd1_r2.png)
+<img src="https://github.com/Epaminondaslage/Wemos-D1/blob/master/Figuras/Placa%20Wemos%20D1%20R2.png" height="200" width="200">
 
 É uma plataforma de prototipagem que possui as mesmas dimensões do Arduino Uno R3. As diferenças mais básicas em relação ao Arduino são o conector micro USB e um ESP8266-12E. A Wemos D1 já conta com WiFi nativo, o que a torna uma plataforma extremamente atraente para desenvolvimento de projetos Iot.
 
@@ -9,8 +9,6 @@
 * [Figuras](#Figuras)
 * [Drives](#Drives)
 * [Setup](#setup)
-* [Features](#features)
-* [Exemplos](#Exemplos)
 * [Status](#status)
 * [Contato](#contato)
 
@@ -29,34 +27,18 @@ Fonte: http://blogmasterwalkershop.com.br/embarcados/wemos/conhecendo-a-wemos-d1
 
 ## Figuras
 
-![Wemos_D1_R2](./Figuras/wemos_d1_r2.png)
+<img src="https://github.com/Epaminondaslage/Wemos-D1/blob/master/Figuras/wemos_d1_r2.png" height="300" width="300">
 
-![Comparação entre Arduino e Wemos](./Figuras/comp_d1_arduino.jpg)
-
+<img src="https://github.com/Epaminondaslage/Wemos-D1/blob/master//Figuras/comp_d1_arduino.jpg" height="300" width="400">
 
 ## Drives
 * https://wiki.wemos.cc/downloads 
 * https://wiki.wemos.cc/start 
-* Tech 3 
 
 ## Setup
 Para Instalar o Wemos D1 no Windows seguir o tutorial:
 
 http://blogmasterwalkershop.com.br/embarcados/wemos/wemos-d1-instalacao-no-windows/
-
-## Exemplos
-Show examples of usage:
-`put-your-code-here`
-
-## Features
-Lista de funcionalidades de futuros desenvolvimentos
-* feature 1
-* feature 2
-* feature 3
-
-Novos desenvolvimentos:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
 
 ## Status
 Este repositório é para alunos do Curso de Eletrotécnica do CEFET-MG 
