@@ -29,9 +29,9 @@ Fonte: http://blogmasterwalkershop.com.br/embarcados/wemos/conhecendo-a-wemos-d1
 
 ## Figuras
 
-<img src="https://github.com/Epaminondaslage/Wemos-D1/blob/master/Figuras/wemos_d1_r2.png" height="200" width="200">
+<img src="https://github.com/Epaminondaslage/Wemos-D1/blob/master/Figuras/wemos_d1_r2.png" height="300" width="300">
 
-<img src="https://github.com/Epaminondaslage/Wemos-D1/blob/master//Figuras/comp_d1_arduino.jpg" height="200" width="200">
+<img src="https://github.com/Epaminondaslage/Wemos-D1/blob/master//Figuras/comp_d1_arduino.jpg" height="300" width="400">
 
 ## Drives
 * https://wiki.wemos.cc/downloads 
