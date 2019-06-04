@@ -25,7 +25,9 @@ Outro diferencial da Wemos D1 é a possibilidade de fazer a programação da pla
 fonte: http://blogmasterwalkershop.com.br/embarcados/wemos/conhecendo-a-wemos-d1/
 
 ## Figuras
-![Example screenshot](./i/screenshot.png)
+
+
+![Wemos_D1_R2](./Figuras/comp_d1_arduino.jpg)
 
 ## Tecnologia
 * Tech 1 
