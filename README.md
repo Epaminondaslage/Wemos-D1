@@ -22,12 +22,13 @@ Principais características da placa:
 Um ponto importante a ser observado é que alguns shields podem exigir uma tensão e corrente superior a máxima fornecida pela Wemos, portanto, fique atento as especificações dos shields que for utilizar com ela.
 
 Outro diferencial da Wemos D1 é a possibilidade de fazer a programação da placa via OTA (Over The Air), ou seja, através do WiFi você pode enviar os códigos para a placa.
-fonte: http://blogmasterwalkershop.com.br/embarcados/wemos/conhecendo-a-wemos-d1/
+
+onte: http://blogmasterwalkershop.com.br/embarcados/wemos/conhecendo-a-wemos-d1/
 
 ## Figuras
+![Wemos_D1_R2](./Figuras/wemos_d1_r2.jpg)
 
-
-![Wemos_D1_R2](./Figuras/comp_d1_arduino.jpg)
+![Pinos do Wemos](./Figuras/comp_d1_arduino.jpg)
 
 ## Tecnologia
 * Tech 1 
