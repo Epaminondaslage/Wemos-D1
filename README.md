@@ -2,7 +2,7 @@
 > Here goes your awesome project description!
 
 ## Sumário
-* [Informações Gerais](#user-content-Informações_Gerais)
+* [Informações Gerais](#user-content-Informacoes_Gerais)
 * [Figuras](#Figuras)
 * [Tecnologia](#tecnologia)
 * [Setup](#setup)
