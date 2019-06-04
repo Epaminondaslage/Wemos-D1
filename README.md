@@ -4,13 +4,13 @@ Programas de exemplo de uso da placa Wemos D1
 > Here goes your awesome project description!
 
 ## Table of contents
-* [Informações Gerais](#info-geral)
+* [Informações Gerais](#Informações Gerais)
 * [Telas](#Telas)
 * [Tecnologia](#tecnologia)
 * [Setup](#setup)
 * [Features](#features)
 * [Codigos de Exemplo](Codigos de Exemplo)
-* [Estatus](#status)
+* [Status](#status)
 * [Inspiração](#inspiração)
 * [Contato](#contato)
 
@@ -45,7 +45,7 @@ To-do list:
 ## Status
 Project is: _in progress_, _finished_, _no longer continue_ and why?
 
-## Inspiration
+## Inspiração
 Add here credits. Project inspired by..., based on...
 
 ## Contato
