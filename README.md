@@ -5,21 +5,22 @@ Programas de exemplo de uso da placa Wemos D1
 
 ## Table of contents
 * [Informações Gerais](#info-geral)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
+* [Telas](#Telas)
+* [Tecnologia](#tecnologia)
 * [Setup](#setup)
 * [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+* [Codigos de Exemplo](Codigos de Exemplo)
+* [Estatus](#status)
+* [Inspiração](#inspiração)
+* [Contato](#contato)
 
 ## Informações Gerais
 Add more general information about project. What the purpose of the project is? Motivation?
 
-## Screenshots
+## Telas
 ![Example screenshot](./img/screenshot.png)
 
-## Technologies
+## Tecnologia
 * Tech 1 - version 1.0
 * Tech 2 - version 2.0
 * Tech 3 - version 3.0
@@ -27,7 +28,7 @@ Add more general information about project. What the purpose of the project is? 
 ## Setup
 Describe how to install / setup your local environement / add link to demo version.
 
-## Code Examples
+## Codigos de Exemplo
 Show examples of usage:
 `put-your-code-here`
 
@@ -47,5 +48,5 @@ Project is: _in progress_, _finished_, _no longer continue_ and why?
 ## Inspiration
 Add here credits. Project inspired by..., based on...
 
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+## Contato
+Creado por Epaminondas Lage - epaminondaslage@gmail.com ou epaminondaslage@cefetmg.br
