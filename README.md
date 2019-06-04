@@ -2,7 +2,7 @@
 > Here goes your awesome project description!
 
 ## Sumário
-* [Informações Gerais](#user-content-Informacoes_Gerais)
+* [Informações Gerais](#user-content-informacoes_gerais)
 * [Figuras](#Figuras)
 * [Tecnologia](#tecnologia)
 * [Setup](#setup)
@@ -12,7 +12,7 @@
 * [Inspiração](#inspiração)
 * [Contato](#contato)
 
-<h2 id="#user-content-Informacoes_Gerais">Informações Gerais</h2>
+<h2 id="informacoes_gerais">Informações Gerais</h2>
 Add more general information about project. What the purpose of the project is? Motivation?
 
 ## Figuras
