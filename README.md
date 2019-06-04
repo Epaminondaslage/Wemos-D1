@@ -23,8 +23,14 @@ Um ponto importante a ser observado é que alguns shields podem exigir uma tens�
 
 Outro diferencial da Wemos D1 é a possibilidade de fazer a programação da placa via OTA (Over The Air), ou seja, através do WiFi você pode enviar os códigos para a placa.
 
+Fonte: http://blogmasterwalkershop.com.br/embarcados/wemos/conhecendo-a-wemos-d1/
+
 ## Figuras
-![Example screenshot](./img/screenshot.png)
+![Wemos_D1_R2](./Figuras/wemos_d1_r2.png)
+
+![Pinos do Wemos D1 R2](./Figuras/pinos.png)
+
+![Comparação entre Arduino e Wemos](./Figuras/comp_d1_arduino.jpg)
 
 ## Tecnologia
 * Tech 1 
@@ -55,4 +61,4 @@ Project is: _in progress_, _finished_, _no longer continue_ and why?
 Add here credits. Project inspired by..., based on...
 
 ## Contato
-Criado por Epaminondas Lage - epaminondaslage@gmail.com ou epaminondaslage@cefetmg.br
+Criado/adaptado por Epaminondas Lage - epaminondaslage@gmail.com ou epaminondaslage@cefetmg.br
