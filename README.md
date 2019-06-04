@@ -2,6 +2,8 @@
 
 ![Wemos_D1_R2](./Figuras/Placa%20Wemos%20D1%20R2.png | width=48)
 
+<img src="https://github.com/favicon.ico" height="24" width="48">
+
 É uma plataforma de prototipagem que possui as mesmas dimensões do Arduino Uno R3. As diferenças mais básicas em relação ao Arduino são o conector micro USB e um ESP8266-12E. A Wemos D1 já conta com WiFi nativo, o que a torna uma plataforma extremamente atraente para desenvolvimento de projetos Iot.
 
 ## Sumário
