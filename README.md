@@ -1,11 +1,9 @@
-# Wemos-D1-Exemplos
-Programas de exemplo de uso da placa Wemos D1
-# Project Name
+# Wemos D1
 > Here goes your awesome project description!
 
-## Table of contents
-* [Informações Gerais](#Informações_Gerais)
-* [Telas](#Telas)
+## Sumário
+* [Informações_Gerais](#Informações_Gerais)
+* [Imágens](#Imágens)
 * [Tecnologia](#tecnologia)
 * [Setup](#setup)
 * [Features](#features)
@@ -17,7 +15,7 @@ Programas de exemplo de uso da placa Wemos D1
 ## Informações Gerais
 Add more general information about project. What the purpose of the project is? Motivation?
 
-## Telas
+## Imágens
 ![Example screenshot](./img/screenshot.png)
 
 ## Tecnologia
@@ -28,7 +26,7 @@ Add more general information about project. What the purpose of the project is? 
 ## Setup
 Describe how to install / setup your local environement / add link to demo version.
 
-## Codigos de Exemplo
+## Exemplos
 Show examples of usage:
 `put-your-code-here`
 
