@@ -4,12 +4,12 @@ Programas de exemplo de uso da placa Wemos D1
 > Here goes your awesome project description!
 
 ## Table of contents
-* [Informações Gerais](#Informações Gerais)
+* [Informações Gerais](#Informações_Gerais)
 * [Telas](#Telas)
 * [Tecnologia](#tecnologia)
 * [Setup](#setup)
 * [Features](#features)
-* [Codigos de Exemplo](Codigos de Exemplo)
+* [Exemplos](Exemplos)
 * [Status](#status)
 * [Inspiração](#inspiração)
 * [Contato](#contato)
