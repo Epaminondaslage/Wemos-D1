@@ -2,8 +2,8 @@
 > Here goes your awesome project description!
 
 ## Sumário
-* [Informações_Gerais](#Informações_Gerais)
-* [Imágens](#Imágens)
+* [Informações_Gerais](#Informações Gerais)
+* [Figuras](#Figuras)
 * [Tecnologia](#tecnologia)
 * [Setup](#setup)
 * [Features](#features)
@@ -31,12 +31,12 @@ Show examples of usage:
 `put-your-code-here`
 
 ## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+Lista de funcionalidades de futuros desenvolvimentos
+* feature 1
+* feature 2
+* feature 3
 
-To-do list:
+Novos desenvolvimentos:
 * Wow improvement to be done 1
 * Wow improvement to be done 2
 
@@ -47,4 +47,4 @@ Project is: _in progress_, _finished_, _no longer continue_ and why?
 Add here credits. Project inspired by..., based on...
 
 ## Contato
-Creado por Epaminondas Lage - epaminondaslage@gmail.com ou epaminondaslage@cefetmg.br
+Criado por Epaminondas Lage - epaminondaslage@gmail.com ou epaminondaslage@cefetmg.br
