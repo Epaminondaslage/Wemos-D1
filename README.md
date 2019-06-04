@@ -12,7 +12,7 @@
 * [Inspiração](#inspiração)
 * [Contato](#contato)
 
-## Informações_Gerais
+<h2 id="Informacoes_Gerais">Informações Gerais</h2>
 Add more general information about project. What the purpose of the project is? Motivation?
 
 ## Figuras
