@@ -9,8 +9,6 @@
 * [Figuras](#Figuras)
 * [Drives](#Drives)
 * [Setup](#setup)
-* [Features](#features)
-* [Exemplos](#Exemplos)
 * [Status](#status)
 * [Contato](#contato)
 
@@ -36,26 +34,11 @@ Fonte: http://blogmasterwalkershop.com.br/embarcados/wemos/conhecendo-a-wemos-d1
 ## Drives
 * https://wiki.wemos.cc/downloads 
 * https://wiki.wemos.cc/start 
-* Tech 3 
 
 ## Setup
 Para Instalar o Wemos D1 no Windows seguir o tutorial:
 
 http://blogmasterwalkershop.com.br/embarcados/wemos/wemos-d1-instalacao-no-windows/
-
-## Exemplos
-Show examples of usage:
-`put-your-code-here`
-
-## Features
-Lista de funcionalidades de futuros desenvolvimentos
-* feature 1
-* feature 2
-* feature 3
-
-Novos desenvolvimentos:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
 
 ## Status
 Este repositório é para alunos do Curso de Eletrotécnica do CEFET-MG 
