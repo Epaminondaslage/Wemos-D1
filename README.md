@@ -2,7 +2,7 @@
 > Here goes your awesome project description!
 
 ## Sumário
-* [Informações](#Informações)
+* [Informações Gerais](#Informações_Gerais)
 * [Figuras](#Figuras)
 * [Tecnologia](#tecnologia)
 * [Setup](#setup)
@@ -12,7 +12,7 @@
 * [Inspiração](#inspiração)
 * [Contato](#contato)
 
-## Informações
+## Informações_Gerais
 Add more general information about project. What the purpose of the project is? Motivation?
 
 ## Figuras
