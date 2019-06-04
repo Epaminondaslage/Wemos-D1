@@ -1,15 +1,17 @@
-# Wemos D1
-> É uma plataforma de prototipagem que possui as mesmas dimensões do Arduino Uno R3. As diferenças mais básicas em relação ao Arduino são o conector micro USB e um ESP8266-12E. A Wemos D1 já conta com WiFi nativo, o que a torna uma plataforma extremamente atraente para desenvolvimento de projetos Iot.
+# Wemos D1 R2
+
+![Wemos_D1_R2](./Figuras/wemosd1_r2.png)
+
+É uma plataforma de prototipagem que possui as mesmas dimensões do Arduino Uno R3. As diferenças mais básicas em relação ao Arduino são o conector micro USB e um ESP8266-12E. A Wemos D1 já conta com WiFi nativo, o que a torna uma plataforma extremamente atraente para desenvolvimento de projetos Iot.
 
 ## Sumário
 * [Informações Gerais](#user-content-informacoes_gerais)
 * [Figuras](#Figuras)
-* [Tecnologia](#tecnologia)
+* [Drives](#Drives)
 * [Setup](#setup)
 * [Features](#features)
 * [Exemplos](#Exemplos)
 * [Status](#status)
-* [Inspiração](#inspiração)
 * [Contato](#contato)
 
 <h2 id="informacoes_gerais">Informações Gerais</h2>
@@ -26,19 +28,21 @@ Outro diferencial da Wemos D1 é a possibilidade de fazer a programação da pla
 Fonte: http://blogmasterwalkershop.com.br/embarcados/wemos/conhecendo-a-wemos-d1/
 
 ## Figuras
-![Wemos_D1_R2](./Figuras/wemos_d1_r2.png)
 
-![Pinos do Wemos D1 R2](./Figuras/pinos.png)
+![Wemos_D1_R2](./Figuras/wemos_d1_r2.png)
 
 ![Comparação entre Arduino e Wemos](./Figuras/comp_d1_arduino.jpg)
 
-## Tecnologia
-* Tech 1 
-* Tech 2 
+
+## Drives
+* https://wiki.wemos.cc/downloads 
+* https://wiki.wemos.cc/start 
 * Tech 3 
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+Para Instalar o Wemos D1 no Windows seguir o tutorial:
+
+http://blogmasterwalkershop.com.br/embarcados/wemos/wemos-d1-instalacao-no-windows/
 
 ## Exemplos
 Show examples of usage:
@@ -55,10 +59,7 @@ Novos desenvolvimentos:
 * Wow improvement to be done 2
 
 ## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
-
-## Inspiração
-Add here credits. Project inspired by..., based on...
+Este repositório é para alunos do Curso de Eletrotécnica do CEFET-MG 
 
 ## Contato
 Criado/adaptado por Epaminondas Lage - epaminondaslage@gmail.com ou epaminondaslage@cefetmg.br
