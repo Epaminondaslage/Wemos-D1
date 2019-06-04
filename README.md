@@ -28,7 +28,7 @@ Fonte: http://blogmasterwalkershop.com.br/embarcados/wemos/conhecendo-a-wemos-d1
 ## Figuras
 ![Wemos_D1_R2](./Figuras/wemos_d1_r2.png)
 
-![Pinos do Wemos](./Figuras/pinos.png)
+![Pinos do Wemos D1 R2](./Figuras/pinos.png)
 
 ![Comparação entre Arduino e Wemos](./Figuras/comp_d1_arduino.jpg)
 
