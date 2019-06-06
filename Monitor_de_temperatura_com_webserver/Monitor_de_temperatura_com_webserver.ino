@@ -171,16 +171,13 @@ String homePage() {
            "<title>Sitio Pe de Serra - Temperatura da Granja</title>"
            "<meta name='viewport' content='width=device-width, initial-scale=1.0'>"
            "<span style='display: none;'>" + String(0) + "</span>"  
-           "<style>img{max-width: 100%;}</style><div style='text-align: center;'><img src='http://caixagg.planetfone.com.br/img/sitiopedeserra.png'></div>"
+           "<style>img{width: 100%;}</style><div style='text-align: center;'><img src='http://caixagg.planetfone.com.br/img/sitiopedeserra.bmp'></div>"
            "<h1>Temperatura: " + temp + "<sup>o</sup>C</h1>"
            "<h1>Umidade: " + umid + "%</h1>"
-           "  "
-           "  " 
-           "<style>img{max-width: 100%;}</style><div style='text-align: center;'><img src='http://caixagg.planetfone.com.br/img/tmax.png'></div>"
-           "<h3>Temperatura Mínima: " + tempmin + "<sup>o</sup>C</h3>"
-           "<style>img{max-width: 100%;}</style><div style='text-align: center;'><img src='http://caixagg.planetfone.com.br/img/tmin.png'></div>"
-           "<h3>Temperatura Máxima: " + tempmax + "<sup>o</sup>C</h3>"
+           "<p>&nbsp;</p>"
+           "<p>&nbsp;</p>"
+           "<style>img{with:100%;}</style><div style='text-align: left;'><img src='http://caixagg.planetfone.com.br/img/Tmin.png'></div><h3>Temperatura Mínima: " + tempmin + "<sup>o</sup>C</h3>"
           
-           "       "   
+           "<style>img{width:100%;}</style><div style='text-align: left;'><img src='http://caixagg.planetfone.com.br/img/Tmax.png'></div><h3>Temperatura Máxima: " + tempmax + "<sup>o</sup>C</h3>"
          );
 }
