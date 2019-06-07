@@ -44,4 +44,4 @@ http://blogmasterwalkershop.com.br/embarcados/wemos/wemos-d1-instalacao-no-windo
 Este repositório é para alunos do Curso de Eletrotécnica do CEFET-MG 
 
 ## Contato
-Criado/adaptado por Epaminondas Lage - epaminondaslage@gmail.com ou epaminondaslage@cefetmg.br
+Criado/adaptado por Epaminondas de Souza  Lage - epaminondaslage@gmail.com ou epaminondaslage@cefetmg.br
