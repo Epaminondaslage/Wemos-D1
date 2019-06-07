@@ -21,8 +21,8 @@ float tmaxima;
 float tminima;
 
 // Rede wifi 1
-const char* ssid = "Popo";
-const char* password = "Planetfone";
+const char* ssid = "pe de serra extra";
+const char* password = "planetfone";
 
 // rede wifi 2
 //const char* ssid = "123644987";
@@ -175,9 +175,13 @@ String homePage() {
            "<h1>Temperatura: " + temp + "<sup>o</sup>C</h1>"
            "<h1>Umidade: " + umid + "%</h1>"
            "<p>&nbsp;</p>"
+           "<h3>Temperatura Mínima: " + tempmin + "<sup>o</sup>C</h3>"
            "<p>&nbsp;</p>"
-           "<style>img{with:100%;}</style><div style='text-align: left;'><img src='http://caixagg.planetfone.com.br/img/Tmin.png'></div><h3>Temperatura Mínima: " + tempmin + "<sup>o</sup>C</h3>"
-          
-           "<style>img{width:100%;}</style><div style='text-align: left;'><img src='http://caixagg.planetfone.com.br/img/Tmax.png'></div><h3>Temperatura Máxima: " + tempmax + "<sup>o</sup>C</h3>"
-         );
+           "<h3>Temperatura Máxima: " + tempmax + "<sup>o</sup>C</h3>"
+           "<p>&nbsp;</p>"
+           );
+//  "<style>img{with:10%;}</style><div style='text-align: left;'><img src='http://caixagg.planetfone.com.br/img/Tmin.png'></div><h3>Temperatura Mínima: " + tempmin + "<sup>o</sup>C</h3>"
+//  "<style>img{width:10%;}</style><div style='text-align: left;'><img src='http://caixagg.planetfone.com.br/img/Tmax.png'></div><h3>Temperatura Máxima: " + tempmax + "<sup>o</sup>C</h3>"
+       
+           
 }
