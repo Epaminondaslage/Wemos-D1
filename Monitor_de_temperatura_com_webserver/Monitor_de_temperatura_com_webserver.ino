@@ -21,12 +21,12 @@ float tmaxima;
 float tminima;
 
 // Rede wifi 1
-const char* ssid = "pe de serra extra";
-const char* password = "planetfone";
+//const char* ssid = "pe de serra extra";
+//const char* password = "planetfone";
 
 // rede wifi 2
-//const char* ssid = "123644987";
-//const char* password = "planeta514";
+const char* ssid = "123644987";
+const char* password = "planeta514";
 
 ESP8266WebServer server(80);
 
