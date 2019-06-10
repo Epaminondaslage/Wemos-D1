@@ -6,7 +6,7 @@
 #include "ClosedCube_HDC1080.h"
 #include "RTClib.h"
 //#include <LiquidCrystal_I2C.h>
-
+//teste em sala
 // inicializa RTC
 // Usar lib ->https://github.com/adafruit/RTClib
 RTC_DS3231 rtc;
