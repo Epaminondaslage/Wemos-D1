@@ -1,13 +1,3 @@
-<p>Alo alunos</p>
-<p><em>bom dia</em></p>
-<p>&nbsp;</p>
-<p><img src="https://html-online.com/editor/tinymce4_6_5/plugins/emoticons/img/smiley-cool.gif" alt="cool" /></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><strong>como v&atilde;o vcs ?</strong></p>
-
-
-
 
 # Wemos D1 R2
 
