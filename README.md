@@ -1,3 +1,14 @@
+<p>Alo alunos</p>
+<p><em>bom dia</em></p>
+<p>&nbsp;</p>
+<p><img src="https://html-online.com/editor/tinymce4_6_5/plugins/emoticons/img/smiley-cool.gif" alt="cool" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>como v&atilde;o vcs ?</strong></p>
+
+
+
+
 # Wemos D1 R2
 
 <img src="https://github.com/Epaminondaslage/Wemos-D1/blob/master/Figuras/Placa%20Wemos%20D1%20R2.png" height="200" width="200">
