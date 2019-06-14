@@ -5,7 +5,7 @@
 <p>&nbsp;</p>
 <p><strong>Prazer em conhecer vc !</strong></p>
 <p>&nbsp;</p>
-<p><strong><a href="github.com/ulissesbmatosc">github.com/ulissesbmatosc</a></strong></p>
+<p><a href="https://github.com/ulissesbmatosc">Site do Ulisses</a></p>
 
 # Wemos D1 R2
 
