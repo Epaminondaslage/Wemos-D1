@@ -1,11 +1,3 @@
-<p>Boa Noite Aluno</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>Meu nome &eacute; <span style="color: #ff0000;">Arduino</span></p>
-<p>&nbsp;</p>
-<p><strong>Prazer em conhecer vc !</strong></p>
-<p>&nbsp;</p>
-<p><a href="https://github.com/ulissesbmatosc">Site do Ulisses</a></p>
 
 # Wemos D1 R2
 
