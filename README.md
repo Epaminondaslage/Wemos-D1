@@ -1,3 +1,4 @@
+
 # Wemos D1 R2
 
 <img src="https://github.com/Epaminondaslage/Wemos-D1/blob/master/Figuras/Placa%20Wemos%20D1%20R2.png" height="200" width="200">
