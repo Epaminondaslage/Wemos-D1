@@ -26,8 +26,8 @@ char mesesdoano [12][10] = {"Janeiro", "Fevereiro", "Março", "Abril", "Maio" , 
 
 
 // Configuração para acesso à rede wifi
-const char* ssid = "pe de serra extra";
-const char* password = "planetfone";
+const char* ssid = "xxxxxxxx";
+const char* password = "xxxxxxxxx";
 
 // Declara variáveis de armazenamento minimo e maximo
 float tmaxima;
