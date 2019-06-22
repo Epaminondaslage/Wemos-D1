@@ -26,8 +26,8 @@ char mesesdoano [12][10] = {"Janeiro", "Fevereiro", "Março", "Abril", "Maio" , 
 
 
 // Configuração para acesso à rede wifi
-const char* ssid = "xxxxxxxx";
-const char* password = "xxxxxxxxx";
+const char* ssid = "Popo";
+const char* password = "Planetfone";
 
 // Declara variáveis de armazenamento minimo e maximo
 float tmaxima;
@@ -105,9 +105,9 @@ void setup(void) {
   WiFi.begin(ssid, password);
 
   // configura WEMOS com IP fixo
-  IPAddress subnet(255, 255, 255, 0);
-  WiFi.config(IPAddress(10, 0, 0, 23), IPAddress(10, 0, 0, 1), subnet);
-  Serial.println("");
+  //IPAddress subnet(255, 255, 255, 0);
+  //WiFi.config(IPAddress(10, 0, 0, 23), IPAddress(10, 0, 0, 1), subnet);
+  //Serial.println("");
 
   // Espera por conexão wifi pisca led na placa
   while (WiFi.status() != WL_CONNECTED) {
