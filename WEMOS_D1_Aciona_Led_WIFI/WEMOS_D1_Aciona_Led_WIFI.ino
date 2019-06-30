@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
-const char* ssid = "Popo";
-const char* password = "Planetfone";
-int ledPin = D4; // GPIO2
-int ledPin2 = D3; // GPIO2
+const char* ssid = "iot_eletrotecnica";
+const char* password = "eletrotecnica";
+int ledPin = D4; // GPIO
+int ledPin2 = D3; // GPIO
 WiFiServer server(80);
 void setup() {
   Serial.begin(115200);
