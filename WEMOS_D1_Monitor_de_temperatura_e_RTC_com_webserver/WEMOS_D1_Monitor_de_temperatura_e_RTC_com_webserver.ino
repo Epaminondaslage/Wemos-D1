@@ -99,15 +99,14 @@ void setup(void) {
   // Inicializa conexão wifi
   pinMode(BUILTIN_LED, OUTPUT);
   digitalWrite(BUILTIN_LED, 0);
-  //Serial.begin(9600);
   delay(1000);
   WiFi.mode(WIFI_STA);
   WiFi.begin(ssid, password);
 
   // configura WEMOS com IP fixo
-  //IPAddress subnet(255, 255, 255, 0);
-  //WiFi.config(IPAddress(10, 0, 0, 23), IPAddress(10, 0, 0, 1), subnet);
-  //Serial.println("");
+  IPAddress subnet(255, 255, 255, 0);
+  WiFi.config(IPAddress(10, 0, 0, 23), IPAddress(10, 0, 0, 1), subnet);
+  Serial.println("");
 
   // Espera por conexão wifi pisca led na placa
   while (WiFi.status() != WL_CONNECTED) {
@@ -243,11 +242,12 @@ String homePage() {
            "<html>"
            "<meta http-equiv='refresh' content='10'/>"
            "<meta charset=\"utf-8\" />"
-           "<title>Sitio Pe de Serra - Temperatura da Granja</title>"
+           "<title>Sitio Pe de Serra - Temperatura da Garagem</title>"
            "<meta name='viewport' content='width=device-width, initial-scale=1.0'>"
            "<span style='display: none;'>" + String(0) + "</span>"
            "<div style='text-align: center;'><img src =  'http://iot-day.com/images/projects/Sitiopedeserra.png' alt='' width='290' height=63' /></div>"
            "<div style='text-align: center;'>" + diadasemana + ", " + dia + " de " + mesesdoano[now.month() - 1] + " de " + ano + "</div>"
+           "<div style='text-align: center;'> Garagem </div>"
            "<h1>Temperatura: " + temp + "<sup>o</sup>C</h1>"
            "<h1>Umidade: " + umid + "%</h1>"
            "<table><tbody><tr><td><img src='http://iot-day.com/images/projects/Tmin.png' alt=' ' width='20' height='35' /></td><td><h4><span style='color: #87CEFA;'>Temperatura Mínima: " + tempmin + " <sup>o</sup>C</span></h4>" + diadasemanamin + ", " + dmin + "/ " + mmin + "/ " + amin + " [" + hmin + ":" + mimin + ":" + smin +  "] </td></tr></tbody></table>"
