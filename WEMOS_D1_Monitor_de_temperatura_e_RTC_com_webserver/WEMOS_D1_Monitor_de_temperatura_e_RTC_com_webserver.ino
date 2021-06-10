@@ -1,9 +1,12 @@
-/******************************************************************
+/******************************************************************************
         Monitoramento de temperatura com HDC1080 e
        Dados mostrados na porta serial e    servidor web
     Servidor web com IP fixo e cliente de rede wifi existente
-    Elaborado por Epaminondas Lage - Junho de 2019
- ******************************************************************/
+    Placa wemos D1R1
+    Porta no mac:  Serial port /dev/cu.wchusbserial1410
+    Cricuito instalado no sítio pé de serra
+    Elaborado por Epaminondas Lage - Junho de 2019 modificado em junho/2021
+ ******************************************************************************/
 
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
@@ -17,6 +20,7 @@
 // Usar lib ->https://github.com/adafruit/RTClib
 RTC_DS3231 rtc;
 
+
 //Inicializa Sensor de temperatura e umidade HDC 1080
 ClosedCube_HDC1080 hdc1080;
 
@@ -26,8 +30,10 @@ char mesesdoano [12][10] = {"Janeiro", "Fevereiro", "Março", "Abril", "Maio" , 
 
 
 // Configuração para acesso à rede wifi
-const char* ssid = "pedeserra";
-const char* password = "planetfone";
+//==============================================
+const char* ssid = "PLT-DIR";
+const char* password = "epaminondas";
+//==============================================
 
 // Declara variáveis de armazenamento minimo e maximo
 float tmaxima;
@@ -63,6 +69,10 @@ void handleNotFound() {
 }
 
 void setup(void) {
+  
+  // iniciliza porta serial
+  Serial.begin(115200);
+
 
   //inicializa parâmetros do RTC
   Wire.begin(4, 5);
@@ -90,9 +100,6 @@ void setup(void) {
   //Inicializa temperatura tmaxima e tminima
   tminima, tminima = hdc1080.readTemperature();
 
-  //Inicializa porta serial
-  Serial.begin(9600);
-
   //Inicializa o sensor de temperatura HDC1080 no endereço 0x40
   hdc1080.begin(0x40);
 
@@ -103,11 +110,14 @@ void setup(void) {
   WiFi.mode(WIFI_STA);
   WiFi.begin(ssid, password);
 
+  //===============================================================
   // configura WEMOS com IP fixo
   IPAddress subnet(255, 255, 255, 0);
-  WiFi.config(IPAddress(10, 0, 0, 23), IPAddress(10, 0, 0, 1), subnet);
+  WiFi.config(IPAddress(10, 0, 2, 103), IPAddress(10, 0, 2, 1), subnet);
   Serial.println("");
+  //===============================================================
 
+  
   // Espera por conexão wifi pisca led na placa
   while (WiFi.status() != WL_CONNECTED) {
     digitalWrite(BUILTIN_LED, 1);
@@ -211,7 +221,7 @@ void loop(void) {
 
 
 // Montagem da Página Web
-String homePage() {
+  String homePage() {
   String tempmax     = String(tmaxima);
   String tempmin     = String(tminima);
   String temp        = String(hdc1080.readTemperature());
@@ -230,7 +240,6 @@ String homePage() {
   String smax        = segundomax < 10 ? "0" + String(segundomax) : String(segundomax);
   DateTime now       = rtc.now();
   String diadasemana = String(daysOfTheWeek[now.dayOfTheWeek()]);
-  //String dia         = (dia.toInt() < 10 ? "0" + dia : dia);
   String dia         = String(now.day(), DEC);
   String mes         = String(now.month(), DEC);
   String ano         = String(now.year(), DEC);
@@ -242,18 +251,18 @@ String homePage() {
            "<html>"
            "<meta http-equiv='refresh' content='10'/>"
            "<meta charset=\"utf-8\" />"
-           "<title>Sitio Pe de Serra - Temperatura da Garagem</title>"
+           "<title>Sitio Pe de Serra - Temperatura e Umidade do Ar</title>"
            "<meta name='viewport' content='width=device-width, initial-scale=1.0'>"
            "<span style='display: none;'>" + String(0) + "</span>"
            "<div style='text-align: center;'><img src =  'http://iot-day.com/images/projects/Sitiopedeserra.png' alt='' width='290' height=63' /></div>"
            "<div style='text-align: center;'>" + diadasemana + ", " + dia + " de " + mesesdoano[now.month() - 1] + " de " + ano + "</div>"
-           "<div style='text-align: center;'> Garagem </div>"
+           "<div style='text-align: center;'>  </div>"
            "<h1>Temperatura: " + temp + "<sup>o</sup>C</h1>"
            "<h1>Umidade: " + umid + "%</h1>"
            "<table><tbody><tr><td><img src='http://iot-day.com/images/projects/Tmin.png' alt=' ' width='20' height='35' /></td><td><h4><span style='color: #87CEFA;'>Temperatura Mínima: " + tempmin + " <sup>o</sup>C</span></h4>" + diadasemanamin + ", " + dmin + "/ " + mmin + "/ " + amin + " [" + hmin + ":" + mimin + ":" + smin +  "] </td></tr></tbody></table>"
            "<table><tbody><tr><td><img src='http://iot-day.com/images/projects/Tmax.png' alt=' ' width='20' height='35' /></td><td><h4><span style='color: #ff0000;'>Temperatura Máxima: " + tempmax + " <sup>o</sup>C</span></h4>" + diadasemanamax + ", " + dmax + "/ " + mmax + "/ " + amax + " [" + hmax + ":" + mimax + ":" + smax +  "] </td></tr></tbody></table>"
            "<p>&nbsp;</p>"
            "<p>&nbsp;</p>"
-           "<div style='text-align: center;'>&copy 2019 - Epaminondas Lage </div>"
+           "<div style='text-align: center;'>&copy 2021 - Epaminondas Lage </div>"
          );
 }
