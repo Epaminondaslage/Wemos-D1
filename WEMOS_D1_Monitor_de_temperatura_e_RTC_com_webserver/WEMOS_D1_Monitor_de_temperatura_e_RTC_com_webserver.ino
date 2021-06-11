@@ -6,7 +6,7 @@
     Porta no mac:  Serial port /dev/cu.wchusbserial1410
     Cricuito instalado no sítio pé de serra
     Elaborado por Epaminondas Lage - Junho de 2019 modificado em junho/2021
-    update 10/06
+    update 10/06 21:27
  ******************************************************************************/
 
 #include <ESP8266WiFi.h>
