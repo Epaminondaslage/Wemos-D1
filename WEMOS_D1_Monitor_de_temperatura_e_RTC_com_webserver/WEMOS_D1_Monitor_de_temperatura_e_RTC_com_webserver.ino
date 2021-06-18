@@ -93,7 +93,7 @@ void setup(void) {
   if (rtc.lostPower()) {
     Serial.println("RTC pedeu alimentação, favor acertar as horas!");
     // Ajusta o RTC para data e hore desta compilação
-    rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
+       rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
     // Exemplo para ajustar a hora do RTC Janeiro, 21, 2019 at 3am:
     // rtc.adjust(DateTime(2019, 1, 21, 3, 0, 0));
   }
@@ -114,7 +114,7 @@ void setup(void) {
   //===============================================================
   // configura WEMOS com IP fixo
   IPAddress subnet(255, 255, 255, 0);
-  WiFi.config(IPAddress(10, 0, 2, 103), IPAddress(10, 0, 2, 1), subnet);
+  WiFi.config(IPAddress(10, 0, 2, 25), IPAddress(10, 0, 2, 1), subnet);
   Serial.println("");
   //===============================================================
 
