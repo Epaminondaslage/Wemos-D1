@@ -21,8 +21,8 @@ float tmaxima;
 float tminima;
 
 // Rede wifi 1
-//const char* ssid = "pe de serra extra";
-//const char* password = "planetfone";
+const char* ssid = "PLT-DIR";
+const char* password = "epaminondas";
 
 // rede wifi 2
 const char* ssid = "123644987";
